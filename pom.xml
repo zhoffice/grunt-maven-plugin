@@ -3,7 +3,7 @@
 
 	<groupId>cn.com.dhc</groupId>
 	<artifactId>maven-grunt-plugin</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<packaging>maven-plugin</packaging>
 	<name>MavenGrunt-Plugin</name>
 	<url>http://maven.apache.org</url>
@@ -69,7 +69,8 @@
 	<scm>
 		<url>scm:git:https://github.com/zhoffice/grunt-maven-plugin</url>
 		<connection>scm:git:https://zhoffice:19850131a@github.com/zhoffice/grunt-maven-plugin.git</connection>
-	</scm>
+	  <tag>maven-grunt-plugin-0.0.2</tag>
+  </scm>
 	<distributionManagement>
 		<repository>
 			<id>nexus-releases</id>
