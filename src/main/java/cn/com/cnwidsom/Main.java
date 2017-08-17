@@ -34,15 +34,15 @@ public class Main extends AbstractMojo {
 	private static final String[] GRUNT_UPDATE_UNIX_COMMAND = new String[] { "npm", "install" };
 	private static final String[] GRUNT_BUILD_UNIX_COMMAND = new String[] { "grunt" };
 	/**
-	 * @parameter property="gruntPath"
+	 * @parameter expression="${gruntPath}"
 	 */
 	String gruntPath;
 	/**
-	 * @parameter property="outputDir"
+	 * @parameter expression="${outputDir}"
 	 */
 	String outputDir;
 	/**
-	 * @parameter property="copyTo"
+	 * @parameter expression="${copyTo}"
 	 */
 	String copyTo;
 
