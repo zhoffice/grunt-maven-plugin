@@ -60,7 +60,7 @@
 					<tagBase>https://marmot-web.eicp.net:8443/svn/tools/tags/MavenGruntPlugin</tagBase>
 				</configuration>
 			</plugin>
-			
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
@@ -90,7 +90,7 @@
 				<configuration>
 					<encoding>UTF-8</encoding>
 					<additionalparam>-Xdoclint:none</additionalparam>
-				</configuration>				
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
@@ -101,18 +101,18 @@
 	<scm>
 		<url>scm:git:https://github.com/zhoffice/grunt-maven-plugin</url>
 		<connection>scm:git:https://zhoffice:19850131a@github.com/zhoffice/grunt-maven-plugin.git</connection>
-	  <tag>HEAD</tag>
-  </scm>
+		<tag>HEAD</tag>
+	</scm>
 	<distributionManagement>
 		<repository>
 			<id>nexus-releases</id>
 			<name>Nexus Release Repository</name>
-			<url>http://127.0.0.1:9901/nexus/content/repositories/releases/</url>
+			<url>http://repo.cnmnt.pub:9901/repository/maven-releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
 			<name>Nexus Snapshot Repository</name>
-			<url>http://127.0.0.1:9901/nexus/content/repositories/snapshots/</url>
+			<url>http://repo.cnmnt.pub:9901/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
